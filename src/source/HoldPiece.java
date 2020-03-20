@@ -23,6 +23,9 @@ public class HoldPiece extends Piece {
 				else if (coords[y][x] != 0)
 					g.drawImage(block, x * Board.BLOCKSIZE + 440, y * Board.BLOCKSIZE + 2 * board.getIndentY() + 80,
 							null);
+				else
+					g.drawImage(block, x * Board.BLOCKSIZE + 430, y * Board.BLOCKSIZE + 2 * board.getIndentY() + 85,
+						   	null);
 			}
 		}
 	}
